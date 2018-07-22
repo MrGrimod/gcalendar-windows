@@ -13,7 +13,7 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1500, height: 900, icon: __dirname + '/icon.png'})
+  mainWindow = new BrowserWindow({width: 1200, height: 700, icon: __dirname + '/icon.png'})
 
   // removing menu bar
   mainWindow.setMenu(null);
