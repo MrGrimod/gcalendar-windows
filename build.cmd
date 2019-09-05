@@ -1,0 +1,1 @@
+C:/Users/MrGrimod/AppData/Roaming/npm/electron-packager.cmd . gcalendar --platform=win32 --icon=icon.ico --out=release-builds

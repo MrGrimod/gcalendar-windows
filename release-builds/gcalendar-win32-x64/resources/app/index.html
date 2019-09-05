@@ -6,10 +6,7 @@
   </head>
   <body style="overflow: hidden;">
     <!-- Creating calendar.google.com Webview! -->
-    <webview id="foo" src="https://calendar.google.com/calendar/r" style="display:inline-flex; width:1150px; height:650px"></webview>
-
-    <script>
-
-    </script>
+    <webview id="calendar" src="https://calendar.google.com/calendar/r" style="left: 0; height: 100%; width: 70%; position: fixed; z-index: 1; top: 0; overflow-x: hidden; padding-top: 20px;"></webview>
+    <webview id="todo" src="https://www.wunderlist.com/webapp#/lists/inbox" style="right: 0; height: 100%; width: 30%; position: fixed; z-index: 1; top: 0; overflow-x: hidden; padding-top: 20px;"></webview>
   </body>
 </html>
